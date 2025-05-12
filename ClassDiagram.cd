@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="User">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAKAAAAABAAgBAAAACAAAAAAAAAAAAKAAgIAEgAEA=</HashCode>
+      <FileName>User.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="orderHistory" />
+      <Field Name="cart" />
+      <Field Name="purchaseStack" />
+      <Field Name="wishlist" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Product">
+    <Position X="6.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAAAAAAAAAAAAAAAAAAEEAIAAAAAAAAAAAgA=</HashCode>
+      <FileName>Product.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ECommerceSystem">
+    <Position X="6.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAEAAAAAAAAAABAAAAAg=</HashCode>
+      <FileName>ECommerceSystem.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="products" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="std::queue&lt;_Ty, _Container&gt;">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAABAAAAAAAIBAAIACAEAAAACAAQAIAAAAQAA=</HashCode>
+      <FileName>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\queue</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="std::vector&lt;_Ty, _Alloc&gt;">
+    <Position X="9" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Class Name="std::vector&lt;_Ty, _Alloc&gt;::_Asan_extend_guard" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="std::vector&lt;_Ty, _Alloc&gt;::_Asan_create_guard" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Enum Name="std::vector&lt;_Ty, _Alloc&gt;::_Reallocation_policy" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>A2AAEYEiAbLsCEBAAONYMAkWM0UARBIggQkwghAFQko=</HashCode>
+      <FileName>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_Mypair" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="std::unordered_map&lt;_Kty, _Ty, _Hasher, _Keyeq, _Alloc&gt;" Collapsed="true">
+    <Position X="1.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAAAAAAABAAACQAAAAAAAAAAEABAAAgQAgAAAEAAA=</HashCode>
+      <FileName>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\unordered_map</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="std::stack&lt;_Ty, _Container&gt;">
+    <Position X="4.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAIgCAEAAAICAAQAIAAAAQAA=</HashCode>
+      <FileName>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\stack</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="std::_Hash&lt;_Traits&gt;" Collapsed="true">
+    <Position X="1.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AlEiUQJCEAFECQRkRMA4QAGSIEBRALIgDYmkQgAF8WI=</HashCode>
+      <FileName>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xhash</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="std::_Compressed_pair&lt;_Ty1, _Ty2&gt;" Collapsed="true">
+    <Position X="12.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAA=</HashCode>
+      <FileName>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xmemory</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
